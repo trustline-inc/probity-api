@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "types": [
+      "@types/jest"
+    ],
+    "typeRoots": ["./src/@types", "node_modules/@types"]
+  },
+  "include": [
+    "src/**/*",
+    "src/**/*.json",
+    "./node_modules/@types/node/index.d.ts"
+  ]
+}
