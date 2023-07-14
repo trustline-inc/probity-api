@@ -1,6 +1,6 @@
 # Probity API
 
-Secure backend for Probity UI
+Secure backend for [Probity UI](https://github.com/trustline-inc/probity-ui) integrated with Modern Treasury for money movement and Plaid for identity verification and compliance.
 
 ## Getting Started
 
